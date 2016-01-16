@@ -2,7 +2,7 @@
 <h1>Hotel project</h1>
 <h2>For correct work site should be loaded on server.</h2>
 <p>
-For displaying rooms without database connection in file app.js :
+<h2>For displaying rooms without database connection in file app.js</h2>
 <p>
 <ul>
 <li>Comment 183 - 193 lines</li>
