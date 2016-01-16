@@ -1,0 +1,11 @@
+<div class="gallery">
+    <% images.forEach(function(image){
+    %>
+    <div class="imageContainer">
+        <div class="imageWrapper">
+            <img  src="<%=image.src%>" alt="<%=image.alt%>">
+        </div>
+        <div class="darker"></div>
+    </div>
+    <%  }); %>
+</div>

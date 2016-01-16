@@ -1,0 +1,9 @@
+<ul>
+    <li><button data-prev>&#10094;</button></li>
+    <% pages.forEach(function(page){ %>
+    <li class="pageNumber" data-pageNumber="<%=page%>">
+        <%= page+1%>
+    </li>
+    <% }) %>
+    <li><button data-next>&#10095;</button></li>
+</ul>

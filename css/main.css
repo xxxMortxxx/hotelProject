@@ -1,0 +1,723 @@
+@font-face {
+    font-family: "MyriadProLSE";
+    src:url("../fonts/MyriadProLightSemiExtended_31641.eot");
+    src:url("../fonts/MyriadProLightSemiExtended_31641.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/MyriadProLightSemiExtended_31641.woff") format('woff'),
+    url("../fonts/MyriadProLightSemiExtended_31641.ttf") format('truetype'),
+    url("../fonts/MyriadProLightSemiExtended_31641.svg#webfont") format('svg');
+}
+
+* {
+    box-sizing: border-box;
+    /*box-sizing: content-box;*/
+}
+
+html,body {
+    margin: 0;
+    font-family: MyriadProLSE,Arial;
+}
+
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: darkgrey;
+}
+
+.test{
+    background: red;
+    width: 100%;
+    height: 200px;
+}
+
+.registrationFormContainer{
+    top: 0;
+    left: 0;
+    position: fixed;
+    /*background:transparent;*/
+    /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#540E383A,endColorstr=#540E383A);*/
+    /*zoom: 1;*/
+    /*background: dodgerblue;*/
+    /*background: ;*/
+    background-image: url(../img/registrationBackground.png);
+    background: rgba(13, 66, 90, 0.68);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.registrationForm {
+    position: fixed;
+    border: 1px solid black;
+    background: white;
+    width: 400px;
+    height: 430px;
+    text-align: center;
+    display: block;
+    margin: 50px auto;
+    left: 0;
+    right: 0;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.registrationForm form {
+    position: relative;
+    /*border: 2px solid red;*/
+    width: 300px;
+    margin:  0 auto;
+    /*background:#F5F5F5 ;*/
+}
+
+.registrationForm input {
+    margin-bottom: 20px;
+    width: 80%;
+    height: 30px;
+    font-size: 17px;
+
+}
+
+.registrationForm input[type='submit']{
+    background: #1C7477;
+    color: white;
+    border-width: 0;
+    cursor: pointer;
+    height: 50px;
+}
+
+.registrationForm input[type='submit']:hover{
+    background: #12484A;
+}
+
+
+.registrationForm label{
+    left: 0px;
+}
+
+.registrationForm h2 {
+    font-weight: 500;
+    font-size: 180%;
+    margin: 15px;
+    margin-bottom: 35px;
+}
+
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #9B696E;
+    color: whitesmoke;
+}
+
+.footer div {
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.footer div:first-child{
+    padding-top: 30px;
+}
+
+body>.header {
+    width: 100%;
+    height: auto;
+    background: url(../img/1.png);
+    z-index: 2;
+    position: fixed;
+    color: white;
+
+}
+body>.header .registration{
+    cursor:pointer;
+}
+
+body>.header .registration:hover{
+    text-decoration: underline;
+}
+
+body>.header:after{
+    content: " ";
+    display: block;
+    height: 100px;
+    clear: both;
+    visibility: hidden;
+}
+
+
+body>.header .logo {
+    height: 100%;
+    width: 300px;
+    text-align: center;
+    padding-left:5px ;
+    /*background: green;*/
+    position: absolute;
+}
+
+body>.header .logo a{
+    padding-top: 11px;
+    display: block;
+    left: 10px;
+}
+
+
+
+body>.header .text {
+    margin-top: 20px;
+    position: absolute;
+
+    left: 380px;
+    width: 715px;
+    height: 50%;
+    /*background: yellow;*/
+}
+
+body > .header .mainMenuWrapper {
+    position: absolute;
+    top: 50%;
+    left: 380px;
+    width: 750px;
+    height: auto;
+    min-height: 50px;
+    font-weight: 800;
+    margin: 0 auto;
+}
+
+body > .header .phone {
+    position: absolute;
+    font-size: 140%;
+    right: 45px;
+    top: 0;
+}
+
+.main {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    min-height: 600px;
+    /*z-index: -1;*/
+    /*overflow: auto;*/
+    background: white;
+}
+
+.main .gallery{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    background:white;
+    text-align: center;
+}
+
+/*.main .gallery .wrapper {*/
+    /*position: relative;*/
+    /*background:khaki;*/
+    /*text-align: center;*/
+/*}*/
+
+.main .gallery .imageContainer {
+    /*width: 24.9999%;*/
+    width: 312px;
+    height: 312px;
+    /*float: left;*/
+    display: inline-block;
+    /*border: 1px solid black;*/
+    text-align: center;
+
+    padding: 5px;
+    /*margin: 10px;*/
+}
+
+
+
+.main .gallery .imageWrapper{
+    /*border: 1px solid grey;*/
+    /*padding: 1px;*/
+    position: relative;
+    background: black;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.main .gallery .imageWrapper:hover{
+    /*padding: -5px;*/
+
+}
+
+
+
+.main .gallery .imageWrapper:hover img {
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+
+
+.main .gallery img{
+    /*width: 300px;*/
+    /*height: 300px;*/
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+}
+
+
+
+
+.about ,.rooms,.discounts,.homePage {
+    position: relative;
+    width: 100%;
+
+}
+
+.about {
+    /*background: rebeccapurple;*/
+}
+
+
+.rooms{
+    background: darkcyan;
+}
+.discounts{
+    /*background: tan;*/
+}
+
+.homePage {
+    background: white;
+}
+
+
+
+
+
+
+.menu>li {
+    /*display: inline;*/
+
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+}
+.menu>li:not(:last-child) {
+    border-right: 1px solid white;
+}
+
+.menu {
+}
+
+
+.bottom {
+    width: 100%;
+    height: 120px;
+    background: url(../img/111.png);
+    position: relative;
+    color: white;
+    top: 100px;
+}
+
+.bottom .left, .bottom .right{
+    position: relative;
+    width: 50%;
+    min-width: 350px;
+    height: 80px;
+    padding: 20px;
+}
+
+.bottom .right{
+    float: right;
+    text-align: right;
+}
+
+.bottom .left{
+    float: left;
+    text-align: left;
+}
+
+.bottom .address{
+    font-size:140%;
+    margin-bottom: 15px;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #1C7477;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: #12484A   ;
+
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 200px;
+    top: 36px;
+    left: 0;
+    background-color: white;
+    /*border: 1px solid red;*/
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #12484A;
+    text-decoration: none;
+}
+
+
+ul.submenu > li > a:hover {
+    /*text-decoration: underline;*/
+    background-color: #0E383A;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.zoomedImage {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    width: auto;
+    height: auto;
+    max-width: 95%;
+    max-height: 95%;
+
+}
+
+
+
+.zoomedImageBackground {
+    width: 100%;
+    height:100%;
+    position: fixed;
+    background: black;
+    z-index: 999;
+    cursor: pointer;
+
+}
+
+
+.zoomedImageBackground .rightArrow,.zoomedImageBackground .leftArrow{
+    position: absolute;
+    width: 63px;
+    height: 100px;
+    top: 50%;
+    margin-top: -50px;
+}
+
+.zoomedImageBackground .rightArrow:hover,.zoomedImageBackground .leftArrow:hover {
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+.zoomedImageBackground .leftArrow{
+    background: url(../img/icons/leftMin.png) no-repeat;
+    background-size: contain;
+    left: 0;
+}
+
+.zoomedImageBackground .rightArrow {
+    background: url(../img/icons/rightMin.png) no-repeat;
+    background-size: contain;
+    right: 0;
+}
+
+
+/*.testHover {*/
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background: black;*/
+    /*z-index: 5;*/
+    /*overflow: hidden;*/
+/*}*/
+
+/*.html,body {*/
+    /*overflow: hidden;*/
+/*}*/
+
+.main .reservationContent {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    width: 80%;
+    margin-left: 200px;
+    background:white;
+    text-align: center;
+}
+
+.reservation .paginationControl li{
+    margin: 5px;
+    display: inline;
+    cursor: pointer;
+}
+
+.reservation .paginationControl li:hover{
+    text-decoration: underline;
+}
+
+.reservation .paginationControl button{
+    cursor:pointer;
+}
+
+
+.reservation .roomContainer h2{
+    font-size:200%;
+    font-weight: 800;
+}
+
+.reservation .roomContainer .imageWrapper{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.reservation .roomContainer .details{
+    padding-left:20px ;
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.reservation .roomContainer .price {
+    position: absolute;
+    width: 40%;
+    left: 0;
+    color: darkgreen;
+    font-weight: 900;
+    font-size: 300%;
+    bottom: 0;
+    margin: 0;
+    margin-bottom: 30px;
+
+}
+
+.reservation .roomContainer .buyWrapper{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+}
+
+.reservation .roomContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.reservation .roomContainer .title{
+    margin-bottom: 20px;
+    /*text-align: left;*/
+}
+
+.reservation .header1{
+    text-align: left;
+}
+
+.reservation .roomContainer .description{
+    /*margin-bottom: 20px;*/
+}
+
+
+
+.reservation .roomContainer button{
+    border-width: 0;
+    padding: 10px 20px;
+    font-size: 150%;
+    background: #1C7477;
+    color: white;
+    cursor: pointer;
+    margin-top:30px;
+}
+
+.reservation .roomContainer .absent{
+    color: darkred;
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.reservation .roomContainer button:hover{
+    background: #12484A;
+}
+
+
+
+.reservation .roomContainer .footer{
+    position: absolute;
+    background: none;
+    width: 95%;
+    height: 200px;
+    bottom: 0;
+}
+
+.reservation .roomContainer{
+    position: relative;
+    text-align: left;
+    /*width: 24.9999%;*/
+    width: 95%;
+    min-width: 800px;
+    height: 300px;
+    /*min-height: 300px;*/
+    /*float: left;*/
+    display: inline-block;
+    /*border: 1px solid black;*/
+    /*text-align: center;*/
+    /*overflow: hidden;*/
+    padding: 5px;
+    margin-bottom:25px;
+    background: #e1e1e1;
+    /*margin: 10px;*/
+}
+
+.reservation .roomsContainer{
+    text-align: left;
+}
+
+.reservation .filters{
+    /*padding-top: 30px;*/
+    /*padding-bottom: 30px;*/
+    margin-left: 20px;
+    padding: 5px;
+    top: 145px;
+    position: fixed;
+    border: 1px solid gray;
+    width: 150px;
+    height: 250px;
+    background:#e1e1e1;
+    text-align: center;
+}
+.reservation .filters li{
+    list-style: none;
+    text-align: left;
+}
+
+.reservation .filters header{
+    font-size: 150%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.reservation .filters .sub{
+    padding-left: 15px;
+}
+
+.reservation .filters input.number{
+    width: 90%;
+}
+
+.slider {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.slider .wrapper{
+    position: absolute;
+    left: 0;
+    top:0;
+    /*height: 300px;*/
+    margin: 0;
+    padding: 0;
+}
+
+.slider li{
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding:0;
+
+}
+
+.slider img{
+    width: 700px;
+    height:400px;
+}
+
+.contacts,.spaCenter,.beautySalon,.discounts,.infoPattern{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom:40px;
+
+}
+
+.infoPattern .description{
+    position: relative;
+    display: inline-block;
+
+    /*margin: auto;*/
+    width: 70%;
+    /*margin: 25px;*/
+}
+
+.infoPattern .header{
+    padding-bottom: 30px;
+}
+
+.infoPattern .description{
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.home .description{
+    text-align: center;
+}
+
+
+
+.infoPattern img.mainImage{
+    width: 70%;
+    height: auto;
+}
+
+
+.infoPattern .header{
+    font-size: 200%;
+}
+
+.infoPattern .description{
+    font-size: 130%;
+}
+
+.contacts iframe{
+    width: 70%;
+    height:400px;
+}
+
+

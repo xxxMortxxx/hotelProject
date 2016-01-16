@@ -1,0 +1,42 @@
+[
+ {
+  "name": "О ГОСТИННИЦЕ",
+  "href": "#about",
+  "sub": [
+   {
+    "name": "Общая информация",
+    "href": "#about"
+   },
+   {
+    "name": "Фотогалерея",
+    "href": "#gallery"
+   }
+  ]
+ },
+ {
+  "name": "ЗАБРОНИРОВАТЬ",
+  "href": "#reservation"
+ },
+ {
+  "name": "АКЦИИ",
+  "href": "#discounts"
+ },
+ {
+  "name": "УСЛУГИ",
+  "href": "#spaCenter",
+  "sub": [
+   {
+    "name": "SPA-центр",
+    "href": "#spaCenter"
+   },
+   {
+    "name": "Салон красоты",
+    "href": "#beautySalon"
+   }
+  ]
+ },
+ {
+  "name": "КОНТАКТЫ",
+  "href": "#contacts"
+ }
+]

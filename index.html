@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel</title>
+    <script src="js/libs/jquery-1.11.3.min.js"></script>
+    <link href="css/resetCSS.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="header">
+
+    <div class="logo">
+        <a href="#home"><img  src="img/hotel5.png" alt="hotel logo"></a>
+    </div>
+    <div class="text">
+        <span class="registration">Регистрация</span>
+        <div class="phone"><span>+38 (044) 999-99-99</span></div>
+    </div>
+    <nav class="mainMenuWrapper">
+
+    </nav>
+</div>
+
+
+<div class="main">
+
+</div>
+
+
+<div class="bottom">
+    <div class="left">
+        <div class="address">ул. Крещатик 1, г. Киев , 01001, Украина, +38 (044) 999-99-99</div>
+        <div class="licence">© 2015 Отель "Hotel".</div>
+    </div>
+    <div class="right">
+        <div class="ya-share2 social" data-services="vkontakte,twitter,facebook,gplus" data-counter data-size="m" data-title="hello"></div>
+    </div>
+</div>
+
+
+
+<div class="registrationFormContainer hide">
+    <div class="registrationForm">
+        <h2>Регистрация</h2>
+        <form  method="post" action="#">
+            <label>Логин:</label><br>
+            <input type="text" name="login" class="login"  required  title="Введите логин "><br>
+            <label>E-mail:</label><br>
+            <input type="email" class="email" name="email" required title="Введите e-mail"><br>
+            <label>Пароль:</label><br>
+            <input type="password" class="password" name="password" required title="Введите пароль"><br>
+            <label>Подтверждение пароля:</label><br>
+            <input type="password" class="confirmPassword" name="passwordConfirmation" required title="Введите подтверждение пароля"><br>
+            <input type="submit" class="submit" value="Зарегистрировать">
+        </form>
+    </div>
+</div>
+
+
+
+
+<script src="js/libs/underscore-min.js"></script>
+
+<script src="js/classes/ContainerController.js"></script>
+<script src="js/classes/Gallery.js"></script>
+<script src="js/classes/PaginateData.js"></script>
+<script src="js/classes/Route.js"></script>
+<script src="js/classes/UsefulFunctions.js"></script>
+<script src="js/classes/TemplatesLoader.js"></script>
+<script src="js/app.js"></script>
+
+<script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="https://yastatic.net/share2/share.js" async="async"></script>
+
+</body>
+</html>

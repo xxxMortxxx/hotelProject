@@ -1,0 +1,19 @@
+<% data.forEach(function(room){ %>
+<div class="roomContainer" data-roomId="<%=room.id%>">
+    <div class="imageWrapper"><img src="<%=room.imageUrl%>" alt="<%=room.title%>"></div>
+    <div class="details">
+        <div class="title"><h2><%= room.title %></h2></div>
+        <p class="description"><%= room.description%></p>
+        <div class="footer">
+            <div class="price"><%= room.price %> $</div>
+            <div class="buyWrapper">
+                <% if(room.occupied < room.totalCount){%>
+                <button class="buy">Забронировать</button>
+                <%}else{ %>
+                <span class="absent">Нет свободных</span>
+                <%  } %>
+            </div>
+        </div>
+    </div>
+</div>
+<% }); %>

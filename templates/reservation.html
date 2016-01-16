@@ -1,0 +1,45 @@
+<div class="reservation">
+
+    <div class="filters">
+        <header>Фильтры</header>
+        <ul>
+            <li>Доступность
+                <ul class="sub">
+                    <li>
+                        <input name="filterGroup1" id="all" type="radio" checked><label for="all">Все</label>
+                    </li>
+                    <li>
+                        <input name="filterGroup1" id="available" type="radio"><label for="available">Доступные</label>
+                    </li>
+                    <li>
+                        <input name="filterGroup1" id="occupied" type="radio"><label for="occupied">Занятые</label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Цена
+                <ul class="sub ">
+                    <li>От:</li>
+                    <li>
+                        <input type="number" class="number" min="0" id="fromPrice">
+                    </li>
+                    <li>До:</li>
+                    <li>
+                        <input type="number" class="number" min="0" id="toPrice">
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="reservationContent">
+        <div class="header1"><h2 style="font-size: 490%">Комнаты</h2></div>
+
+        <div class="roomsContainer">
+
+        </div>
+        <div class="paginationControl">
+
+        </div>
+    </div>
+</div>

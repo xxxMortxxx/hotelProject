@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/JSON/mainMenuCategories.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/addData.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/getData.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/backend/test.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/css/main.css" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/classes/UsefulFunctions.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/about.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/beautySalon.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/contacts.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/discounts.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/gallery.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/home.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/menu.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/reservation.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/roomPagination.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/roomPaginationControl.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/spaCenter.html" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1251" />
+  </component>
+</project>

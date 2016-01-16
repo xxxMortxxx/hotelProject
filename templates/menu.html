@@ -1,0 +1,19 @@
+ <ul class="menu">
+        <%categories.forEach(function(mainCategory){ %>
+        <li><a href=
+                       <%if(mainCategory.href!==undefined){%>
+            <%=mainCategory.href%>
+            <%}else{ %>
+            <%="#"%>
+            <%  }%>
+            ><%= mainCategory.name %></a>
+            <% if(mainCategory.hasOwnProperty('sub')){  %>
+            <ul class="submenu">
+                <% mainCategory.sub.forEach(function(subCategory){ %>
+                <li><a href="<%=subCategory.href %>"><%=subCategory.name %></a></li>
+                <%  }); %>
+            </ul>
+            <% } %>
+        </li>
+        <% }); %>
+    </ul>
