@@ -1,8 +1,9 @@
-Для корректной работы сайт должен быть выложен на сервер.
+
+<h2>For correct work site should be loaded on server.</h2>
 
 
-Для отображения номеров, без подключения к базе данных в файле app.js :
+For displaying rooms without database connection in file app.js :
 
-1) Закоментируйте строки 183 - 193
+1) comment 183 - 193 lines
 
-2) Разкоментируйте строки 198 - 212
+2) uncomment 198 - 212 lines
