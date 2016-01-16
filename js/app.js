@@ -212,18 +212,16 @@ function initApp() {
                  roomsPagination.render();
 */
 
-
             }
         },
         onEveryHashCange: function () {
             //none
         }
     });
-
     route.init();
-
-
-
+    if (window.location.hash) {
+        $(window).trigger('hashchange')
+    }
 }
 
     var hideClassName = 'hide',
