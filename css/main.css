@@ -773,6 +773,10 @@ ul.menu > li:hover > ul.submenu {
 
     }
 
+    .minifiedMenu:hover{
+        background: #12484A;
+    }
+
     .minifiedMenu img{
         display: inline-block;
     }
