@@ -36,8 +36,9 @@ PaginateData.prototype.move = function(pages){
             this.currentPage+=pages;
         }
     }else{
-        if(this.currentPage-pages>=0){
-            this.currentPage-=pages;
+        if(this.currentPage+pages>=0){
+            this.currentPage+=pages;
+            console.log('prev');
         }
     }
 

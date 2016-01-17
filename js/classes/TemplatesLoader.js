@@ -16,7 +16,6 @@ TemplatesLoader.prototype.start = function(){
             var templateName = url.match(/\/(\w+)\.html$/i)[1];
             this.storage[templateName] = _.template(data);
             this.loaded++;
-            console.log(this);
             if(this.loaded===this.total){
                 this.onAllLoaded();
             }

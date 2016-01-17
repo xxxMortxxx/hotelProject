@@ -37,7 +37,7 @@ function initApp() {
     var contentContainerController = new ContainerController({
         container: ".main",
         onContentChange: function () {
-            UsefulFunctions.scrollToTop(450);
+            UsefulFunctions.scrollToTop();
         }
     });
 
@@ -113,10 +113,6 @@ function initApp() {
             },
             'reservation': function () {
                 contentContainerController.setContent(Templates.reservation());
-                //DBConnection.request({},'backend/getData.php',function(data){
-                //    console.log(JSON.parse(JSON.parse(data)));
-                //});
-
 
                 var roomsPagination = new PaginateData({
                     dataInRow: 4,
@@ -219,9 +215,7 @@ function initApp() {
         }
     });
     route.init();
-    if (window.location.hash) {
         $(window).trigger('hashchange')
-    }
 }
 
     var hideClassName = 'hide',
@@ -297,6 +291,7 @@ function initApp() {
         }
         e.preventDefault();
     }.bind(this));
+
 });
 
 
