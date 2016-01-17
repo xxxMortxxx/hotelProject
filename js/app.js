@@ -292,6 +292,8 @@ function initApp() {
         e.preventDefault();
     }.bind(this));
 
+    console.log('hello');
+
 });
 
 
