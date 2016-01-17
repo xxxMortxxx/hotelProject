@@ -716,6 +716,7 @@ ul.menu > li:hover > ul.submenu {
 .infoPattern img.mainImage{
     width: 70%;
     height: auto;
+
 }
 
 
@@ -738,9 +739,9 @@ ul.menu > li:hover > ul.submenu {
     top:50px;
     text-align: center;
     /*display: none;*/
-    width: 90px;
+    width: 0px;
     font-weight: 700;
-    height: 36px;
+    height: 0px;
     background: #1C7477;
     cursor: pointer;
 }
@@ -755,15 +756,21 @@ ul.menu > li:hover > ul.submenu {
     transform: translateY(-50%);
     width: auto;
     position: relative;
+    display: none;
 }
 
 @media (max-width: 1078px) {
     .minifiedMenu{
+        width: 90px;
+        height: 36px;
         display: block;
         top: 58px;
 
     }
 
+    .minifiedMenu img{
+        display: inline-block;
+    }
     .mainMenuWrapper {
         position: absolute;
         z-index: 9999;
