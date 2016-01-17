@@ -293,7 +293,7 @@ function initApp() {
     }.bind(this));
 
 
-
+console.log('hello');
 
 });
 
