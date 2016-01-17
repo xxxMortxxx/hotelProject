@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeb99b13-f395-4262-bdcd-4aa0a4fbcf88" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/resetCSS.css" afterPath="$PROJECT_DIR$/css/resetCSS.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/MyriadProLightSemiExtended_31641.svg" afterPath="$PROJECT_DIR$/fonts/MyriadProLightSemiExtended_31641.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/HotelLogo3.svg" afterPath="$PROJECT_DIR$/img/HotelLogo3.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/hotellogo.svg" afterPath="$PROJECT_DIR$/img/hotellogo.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/classes/ContainerController.js" afterPath="$PROJECT_DIR$/js/classes/ContainerController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/classes/Gallery.js" afterPath="$PROJECT_DIR$/js/classes/Gallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/classes/PaginateData.js" afterPath="$PROJECT_DIR$/js/classes/PaginateData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/classes/Route.js" afterPath="$PROJECT_DIR$/js/classes/Route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/classes/TemplatesLoader.js" afterPath="$PROJECT_DIR$/js/classes/TemplatesLoader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/classes/UsefulFunctions.js" afterPath="$PROJECT_DIR$/js/classes/UsefulFunctions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/libs/jquery-1.11.3.min.js" afterPath="$PROJECT_DIR$/js/libs/jquery-1.11.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/libs/underscore-min.js" afterPath="$PROJECT_DIR$/js/libs/underscore-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/about.html" afterPath="$PROJECT_DIR$/templates/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/beautySalon.html" afterPath="$PROJECT_DIR$/templates/beautySalon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contacts.html" afterPath="$PROJECT_DIR$/templates/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/discounts.html" afterPath="$PROJECT_DIR$/templates/discounts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gallery.html" afterPath="$PROJECT_DIR$/templates/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/menu.html" afterPath="$PROJECT_DIR$/templates/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/reservation.html" afterPath="$PROJECT_DIR$/templates/reservation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/roomPagination.html" afterPath="$PROJECT_DIR$/templates/roomPagination.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/roomPaginationControl.html" afterPath="$PROJECT_DIR$/templates/roomPaginationControl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/spaCenter.html" afterPath="$PROJECT_DIR$/templates/spaCenter.html" />
     </list>
     <ignored path="finalProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -62,8 +37,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47644928">
-              <caret line="805" column="38" selection-start-line="805" selection-start-column="38" selection-end-line="805" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.39513108">
+              <caret line="783" column="15" selection-start-line="783" selection-start-column="15" selection-end-line="783" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -749,16 +724,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47644928">
-          <caret line="805" column="38" selection-start-line="805" selection-start-column="38" selection-end-line="805" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.39513108">
+          <caret line="783" column="15" selection-start-line="783" selection-start-column="15" selection-end-line="783" selection-end-column="15" />
           <folding />
         </state>
       </provider>

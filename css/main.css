@@ -210,12 +210,12 @@ body>.header .logo a{
 
 
 
-body > .header .phone {
-    position: absolute;
-    font-size: 140%;
-    right: 45px;
-    top: 0;
-}
+/*body > .header .phone {*/
+    /*position: absolute;*/
+    /*font-size: 140%;*/
+    /*right: 45px;*/
+    /*top: 0;*/
+/*}*/
 
 .main {
     position: relative;
@@ -326,15 +326,18 @@ body > .header .phone {
 .menu>li {
     /*display: inline;*/
 
-    margin-right: 15px;
+    margin-right: 5px;
     margin-bottom: 10px;
-    padding-right: 15px;
+    padding-right: 5px;
 }
 .menu>li:not(:last-child) {
     border-right: 1px solid white;
 }
 
 .menu {
+    top:8px;
+    position: relative;
+
 }
 
 
@@ -384,6 +387,8 @@ ul:after {
     clear: both;
     float: none;
 }
+
+
 ul.menu > li {
     float: left;
     position: relative;
@@ -759,7 +764,7 @@ ul.menu > li:hover > ul.submenu {
     display: none;
 }
 
-@media (max-width: 1078px) {
+@media (max-width: 950px) {
     .minifiedMenu{
         width: 90px;
         height: 36px;
@@ -776,7 +781,7 @@ ul.menu > li:hover > ul.submenu {
         z-index: 9999;
         display: none;
         left: 0px;
-        top: 37px !important;
+        top: 29px !important;
     }
 
 
@@ -830,9 +835,9 @@ ul.menu > li:hover > ul.submenu {
         border-right: none;
     }
 
-    .phone {
-        display: none;
-    }
+    /*.phone {*/
+        /*display: none;*/
+    /*}*/
 
 
 }
