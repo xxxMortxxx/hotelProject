@@ -108,7 +108,7 @@ PaginateData.prototype.render = function(){
         this.__firstFilter=true;
     }else{
         //this.displayItems(0,0);
-        this.$dataContainer.html('Сервер не отвечает');
+        this.$dataContainer.html('Sever error');
     }
     UsefulFunctions.scrollToTop();
 };
