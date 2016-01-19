@@ -3,7 +3,7 @@
 <a href="http://iroomstore.com.ua/hotel">Go to "Hotel" site</a>
 <h2>For correct work site should be loaded on server.</h2>
 <p>
-<h2>For displaying rooms without database connection in file app.js</h2>
+<h2>For displaying rooms without database connection in file app.js:</h2>
 <p>
 <ul>
 <li>Comment 183 - 193 lines</li>
